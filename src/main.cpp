@@ -2,7 +2,15 @@
 
 int main()
 {
-    std::cout << "Test d'affichage\n";
+    std::cout << "\nTest de saisie de nombre\n\n";
+
+    int valeur { 0 };
+
+    std::cout << "Saisir une valeur :\n";
+    std::cin >> valeur;
+
+    std::cout << "Vous avez saisi la valeur : " << valeur << "\n";
+    std::cout << " Merci de votre participation !\n";
 
     return 0;
 }
