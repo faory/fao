@@ -10,7 +10,7 @@ int main()
     std::cin >> valeur;
 
     std::cout << "Vous avez saisi la valeur : " << valeur << "\n";
-    std::cout << " Merci de votre participation !\n";
+    std::cout << " Merci Beaucoup !\n";
 
     return 0;
 }
