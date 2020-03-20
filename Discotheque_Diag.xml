@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-03-20T15:18:48.697Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64; rv:68.0) Gecko/20100101 Firefox/68.0" etag="FGyTaQw1a0_t9UK1RDxL" version="12.8.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-03-20T15:43:21.670Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64; rv:68.0) Gecko/20100101 Firefox/68.0" etag="6uC57odAdp-28GrExjt9" version="12.8.8" type="github">
   <diagram id="fC-NQ3oiL4nIV0vhhnS1" name="Page-1">
-    <mxGraphModel dx="2062" dy="1106" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -111,6 +111,62 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1450" y="630" as="sourcePoint" />
             <mxPoint x="1500" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AufjrNx0MrxhOH-hCMFK-13" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AufjrNx0MrxhOH-hCMFK-1" target="AufjrNx0MrxhOH-hCMFK-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="950" y="785" as="sourcePoint" />
+            <mxPoint x="1000" y="735" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AufjrNx0MrxhOH-hCMFK-14" value="" style="endArrow=classic;html=1;exitX=1.014;exitY=0.038;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="AufjrNx0MrxhOH-hCMFK-7" target="AufjrNx0MrxhOH-hCMFK-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="1041.5" as="sourcePoint" />
+            <mxPoint x="608" y="1007" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AufjrNx0MrxhOH-hCMFK-8" value="struct Morceau" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=27;fillColor=#dae8fc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=1;shadow=0;glass=0;comic=0;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="598" y="905" width="140" height="105" as="geometry">
+            <mxRectangle x="575" y="179.5" width="50" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AufjrNx0MrxhOH-hCMFK-9" value="std::string nom" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="AufjrNx0MrxhOH-hCMFK-8">
+          <mxGeometry y="27" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="AufjrNx0MrxhOH-hCMFK-11" value="Album album" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="AufjrNx0MrxhOH-hCMFK-8">
+          <mxGeometry y="53" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="AufjrNx0MrxhOH-hCMFK-12" value="Artiste artiste" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="AufjrNx0MrxhOH-hCMFK-8">
+          <mxGeometry y="79" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="AufjrNx0MrxhOH-hCMFK-1" value="struct Artiste" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=27;fillColor=#dae8fc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=1;shadow=0;glass=0;comic=0;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="370" y="1005" width="140" height="53" as="geometry">
+            <mxRectangle x="575" y="179.5" width="50" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AufjrNx0MrxhOH-hCMFK-2" value="std::string nom" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="AufjrNx0MrxhOH-hCMFK-1">
+          <mxGeometry y="27" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="AufjrNx0MrxhOH-hCMFK-6" value="struct Album" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=27;fillColor=#dae8fc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=1;shadow=0;glass=0;comic=0;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="370" y="905" width="140" height="53" as="geometry">
+            <mxRectangle x="575" y="179.5" width="50" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AufjrNx0MrxhOH-hCMFK-7" value="std::string nom" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="AufjrNx0MrxhOH-hCMFK-6">
+          <mxGeometry y="27" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="AufjrNx0MrxhOH-hCMFK-15" value="Discograpgie" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=27;fillColor=#f8cecc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=1;shadow=0;glass=0;comic=0;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="538" y="770" width="260" height="53" as="geometry">
+            <mxRectangle x="575" y="179.5" width="50" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AufjrNx0MrxhOH-hCMFK-16" value="using Discographie = std::vector&lt;Morceau&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="AufjrNx0MrxhOH-hCMFK-15">
+          <mxGeometry y="27" width="260" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="AufjrNx0MrxhOH-hCMFK-19" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="AufjrNx0MrxhOH-hCMFK-8" target="AufjrNx0MrxhOH-hCMFK-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="950" y="710" as="sourcePoint" />
+            <mxPoint x="1000" y="660" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
